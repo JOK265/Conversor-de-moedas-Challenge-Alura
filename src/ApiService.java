@@ -5,7 +5,7 @@ import java.net.http.HttpResponse;
 
 public class ApiService {
     public double obterTaxaCambio(Moeda base, Moeda destino) throws Exception {
-        String API_KEY = "15509b54c84b2d122222075a";
+        String API_KEY = "chave API";
         String url = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/latest/" + base;
 
         HttpRequest request = HttpRequest.newBuilder()
